@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <p1>{{ instructions }}</p1>
+    <form action="/thank-you">
+        <ol>
+            <li>Have you shopped here before?</li>
+                Yes <input type="radio" name="question1"></input>
+                No <input type="radio" name="question1"></input>
+            <li>Did someone else shop with you today?</li>
+                Yes <input type="radio" name="question2"></input>
+                No <input type="radio" name="question2"></input>
+            <li>On average, how much do you spend a month on frisbees?</li>
+                Less than $10,000 <input type="radio" name="question3"></input>
+                $10,000 or more <input type="radio" name="question3"></input>
+            <li>"Are you likely to shop here again?"</li>
+                Yes <input type="radio" name="question4"></input>
+                No <input type="radio" name="question4"></input>
+        </ol>
+        <button type="submit">Finish!</button>
+    </form>
+</body>
+</html>
